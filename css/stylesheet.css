@@ -1,0 +1,23 @@
+body {
+    font-family: "Darker Grotesque", sans-serif;
+}
+h1 {
+    font-weight: bold;
+
+}
+img {
+    opacity: 0.9;
+    border-radius: 8px;
+    filter: grayscale(100%);
+  }
+
+.jumbotron {
+    background-image: url(/img/bg-main-mask.jpg);
+    background-size: cover;
+    height: 100%;
+
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+  }
